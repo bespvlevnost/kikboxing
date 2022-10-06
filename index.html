@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="headerUp">
+                <div class="headerUpBox">
+                    <img class="logo" src="img/logo.png" alt="logo">
+                    <div class="name__innerCenter"><p>Федерация Кикбоксинга Ленинградской Области</p></div>
+                    <div class="contacts">
+                        <p>8 999 111 11 11</p>
+                        <p>mail@mail.ru</p>
+                    </div>
+                </div>
+            </div>
+            <div class="headerDown">
+                <div class="headerDownBox">
+                    <div class="button__innerCenterActive"><a href="">Главная</a></div>
+                    <div class="button__innerCenter"><a href="">О Кикбоксинге</a></div>
+                    <div class="button__innerCenter"><a href="">О Федерации</a></div>
+                    <div class="button__innerCenter"><a href="">Календарь</a></div>
+                    <div class="button__innerCenter"><a href="">Клубы</a></div>
+                    <div class="button__innerCenter"><a href="">Документы</a></div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="main__container">
+                <div class="newsBlock">
+                    <div class="news__container">
+                        <div class="news__innerCenter"><p>Новости</p></div>
+                    </div>
+                    <div class="slider__container">
+                        <div class="slidesButton" onclick="plusSlides(-1)"></div>
+                        <div class="slider">
+                            <div class="mySlides fade">
+                                <p style="text-align:center;">слайдер</p>
+                            </div>
+                            <div class="mySlides fade">
+                                <p style="text-align:center;">работает</p>
+                            </div>
+                            <div class="mySlides fade">
+                                <p style="text-align:center;">исправно</p>
+                            </div>
+                        </div>
+                        <div class="slidesButton" onclick="plusSlides(+1)"></div>
+                    </div>
+                    <div class="dot__container">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                </div>
+                <div class="importantInfotmationEvents">
+                    <div class="importatnInformation">
+                        <div class="importantInformationTitle__innerCenter"><p>Важная Информация</p></div>
+                        <div class="importantInformationBlock">
+
+                        </div>
+                    </div>
+                    <div class="events">
+                        <div class="eventsTitle__innerCenter"><p>Ближайшие мероприятия</p></div>
+                        <div class="event"></div>
+                        <div class="event"></div>
+                        <div class="event"></div>
+                        <div class="event"></div>
+                        <div class="event"></div>
+                        <div class="event"></div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="videoTitle__innerCenter">
+                        <p>Видео Федерации</p>
+                    </div>
+                    <div class="videoSlider__container">
+                        <div class="slidesButton" onclick="plusVideoSlides(-1)"></div>
+                        <div class="videoSlider">
+                            <div class="myVideoSlides fade">
+                                <p style="text-align:center;">слайдер</p>
+                            </div>
+                            <div class="myVideoSlides fade">
+                                <p style="text-align:center;">для</p>
+                            </div>
+                            <div class="myVideoSlides fade">
+                                <p style="text-align:center;">видео</p>
+                            </div>
+                        </div>
+                        <div class="slidesButton" onclick="plusVideoSlides(+1)"></div>
+                    </div>
+                    <div class="videoDot__container">
+                        <span class="videoDot" onclick="currentVideoSlide(1)"></span> 
+                        <span class="videoDot" onclick="currentVideoSlide(2)"></span> 
+                        <span class="videoDot" onclick="currentVideoSlide(3)"></span> 
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footerUp">
+                    <div class="botNav">
+                        <a href="">Главная</a>
+                        <a href="">о Кикбоксинге</a>
+                        <a href="">о Федерации</a>
+                        <a href="">Календарь</a>
+                        <a href="">Клубы</a>
+                        <a href="">Документы</a>
+                    </div>
+                    <div class="partners">
+                        <div class="partnerBox__innerCenter"><p>Партнеры</p></div>
+                        <p style="text-align:center;">Партнер 1</p>
+                        <p style="text-align:center;">Партнер 2</p>
+                    </div>
+                    <div class="socialMedia">
+                        <div class="partnerBox__innerCenter"><p>Социальные сети</p></div>
+                        <div class="socialBox"><a href="">ВКонтакте</a></div>
+                        <div class="socialBox"><a href="">Телеграм</a></div>                   
+                    </div>
+                </div>
+                <div class="footerDown">
+
+                </div>
+            </div>
+        </footer>
+    </div> 
+    <script src="header.js"></script> 
+    <script src="slider.js"></script> 
+</body>
+</html>
