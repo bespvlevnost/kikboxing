@@ -204,6 +204,7 @@ a {
     filter: drop-shadow(-7px 6px 6px rgba(0, 0, 0, 0.25));
     border-radius: 50px 0px 0px 50px;
     margin-bottom: 18px;
+    display: flex;
 }
 
 .rightRoundBox {
@@ -213,7 +214,31 @@ a {
     filter: drop-shadow(7px 5px 6px rgba(0, 0, 0, 0.25));
     border-radius: 0px 50px 50px 0px;
     margin-bottom: 18px;
+    display: flex;
+}
 
+.txtBlock h4 {
+    font-weight: 500;
+    color: #0C2FA3;
+    font-size: 24px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+.txtBlock {
+    width: 637px;
+    padding: 20px;
+}
+
+.txtBlock p {
+    font-weight: 500;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+    text-align: justify;
+}
+
+.imgBlock {
+    width: 483px;
+    height: 310px;
 }
 
 
