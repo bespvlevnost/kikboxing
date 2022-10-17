@@ -136,12 +136,12 @@ a {
     padding-bottom: 42px;
 }
 
-.informationTitle {
+.sheduleTitle {
     display: flex;
     justify-content: center;
 }
 
-.informationTitle__innerCenter {
+.sheduleTitle__innerCenter {
     height: 50px;
     width: 767px;
     background: linear-gradient(269.3deg, #D9D9D9 -7.34%, #0D246F 318.71%);
@@ -150,107 +150,97 @@ a {
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
 }
 
-.informationTitle__innerCenter p {
+.sheduleTitle__innerCenter p {
     color: #0C2FA3;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
     font-weight: 500;
     font-size: 31px;
 }
 
-.memberBlock___container {
-    max-width: 385px;
-    margin: 0 0;
-}
-
-.jobTitle__innerCenter {
-    height: 50px;
-    width: 385px;
-    background: linear-gradient(269.3deg, #D9D9D9 -7.34%, #0D246F 318.71%);
-    border-radius: 66px;
-    margin-bottom: 16px;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
-}
-
-.photoBlock {
-    width: 385px;
-    height: 385px;
-    background: #A4A4A4;
-    border-radius: 50px;
-    margin-bottom: 16px;
-
-}
-
-.name {
-    height: 50px;
-    width: 385px;
-    background: linear-gradient(269.3deg, #D9D9D9 -7.34%, #0D246F 318.71%);
-    border-radius: 66px;
-    margin-bottom: 16px;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
-}
-
-.info {
-    width: 385px;
-    background: #d9d9d9;
-    border-radius: 50px;
-    padding: 20px 30px 20px 30px;
-}
-
-.firstRow {
-    display: flex;
-    justify-content: space-around;
-}
-
-.secondRow__innerCenter {
-    margin-top: 42px;
-}
-
-.presidiumTitle {
+.titles {
     display: flex;
     justify-content: center;
-    margin-top: 22px;
 }
 
-.presidiumMembersBlock{
+.date__innerCenter {
+    height: 40px;
+    width: 130px;
+    background: linear-gradient(269.3deg, #D9D9D9 -7.34%, #0D246F 318.71%);
+    border-radius: 66px;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+    margin-right: 20px;
+}
+
+.competitions__innerCenter {
+    height: 40px;
+    width: 746px;
+    background: linear-gradient(269.3deg, #D9D9D9 -7.34%, #0D246F 318.71%);
+    border-radius: 66px;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.titles p {
+    color: #0C2FA3;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.compContainer {
+    width: 746px;
+}
+
+.compDate__innerCenter {
+    background: linear-gradient(267.97deg, #D9D9D9 -16.55%, #747474 163.4%);
+    border-radius: 20px;
+    width: 130px;
+    height: 180px;
+    margin-right: 20px;
+}
+
+.compInfo__innerCenter {
+    background: linear-gradient(267.97deg, #D9D9D9 -16.55%, #747474 163.4%);
+    border-radius: 20px;
+    border-radius: 20px;
+    width: 515px;
+    height: 180px;
+}
+
+.compPhoto {
+    background: linear-gradient(267.97deg, #D9D9D9 -16.55%, #747474 163.4%);
+    border-radius: 20px;
+    width: 207px;
+    height: 180px;
+
+}
+
+.compContainer {
     display: flex;
     justify-content: space-between;
 }
 
-.presidiumTitle__innerCenter {
-    height: 50px;
-    width: 767px;
+.showMore {
+    cursor: pointer;
     background: linear-gradient(269.3deg, #D9D9D9 -7.34%, #0D246F 318.71%);
-    border-radius: 66px;
-    margin-bottom: 30px;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
-}
-
-.presidiumTitle__innerCenter p {
+    border-radius: 45px;
+    width: 430px;
+    height: 43px;
     color: #0C2FA3;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
     font-weight: 500;
-    font-size: 31px;
+    font-size: 20px;
 }
 
-.presidiumMember{
-    display: flex;
-    flex-direction: column;
-}
-
-.presidiumName__innerCenter{
-    height: 35px;
-    width: 207px;
-    background: linear-gradient(269.3deg, #D9D9D9 -7.34%, #0D246F 318.71%);
-    border-radius: 66px;
-    margin-bottom: 11px;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
-}
-
-.presidiumPhoto{
-    width: 207px;
-    height: 207px;
-    background: #898989;
-    border-radius: 50px;
+.showMore :hover {
+    background: linear-gradient(267.97deg, #D9D9D9 -16.55%, #444568 163.4%);
 }
 
 /* Footer */
